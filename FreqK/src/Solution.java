@@ -18,7 +18,7 @@ public class Solution {
 			// add the first value to hash
 			if(map.get(arr[i])==null)
 			map.put(arr[i], 1);
-			else { // increment the count if does not exist
+			else { // increment the count if exists
 				int count = map.get(arr[i])+1;
 				map.put(arr[i],count);
 				if(count > maxCount)
